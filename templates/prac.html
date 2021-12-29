@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Basic comparisions</h2>
+
+    {% if company == "Apple" %}
+    <h4>Apple pdts</h4>
+    <ul>
+        <li>iphone</li>
+        <li>ipad</li>
+        <li>macbook</li>
+    </ul>
+    {% elif company == "Microsoft" %}
+    <h4>Microsoft pdts</h4>
+    <ul>
+        <li>windows</li>
+        <li>surface pro</li>
+        <li>xbox</li>
+    </ul>
+    {% endif %}
+</body>
+</html>
